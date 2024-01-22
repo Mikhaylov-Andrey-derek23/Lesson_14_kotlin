@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FourActivity">
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.50"
+        android:hint="Enter userName"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
+
+        />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.50"
+        android:hint="Enter Email"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
+
+        />
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.50"
+        android:hint="Enter userName"
+        android:inputType="phone"
+        android:textSize="30sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
+
+        />
+    <Button
+        android:id="@+id/btnPassText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.80"
+        android:text="Pass Data"
+        android:textSize="40sp"
+        android:fontFamily="serif-monospace"
+        android:background="@color/blue"
+        android:layout_marginBottom="32dp"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ThirdActivity">
+    <TextView
+        android:id="@+id/FragmentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintVertical_bias="0.27"
+        android:textSize="48sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
+         />
+    <Button
+        android:id="@+id/btnNavigateToFourActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.80"
+        android:text="Next"
+        android:textSize="40sp"
+        android:fontFamily="serif-monospace"
+        android:background="@color/blue"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnNavigateToFirstActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.80"
+        android:text="First screen"
+        android:textSize="40sp"
+        android:fontFamily="serif-monospace"
+        android:background="@color/blue"
+        android:layout_marginTop="32dp"
+        />
+
+
+</LinearLayout>
