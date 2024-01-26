@@ -12,7 +12,7 @@
         android:id="@+id/FragmentText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Home work!"
         android:textSize="48sp"
         android:fontFamily="serif-monospace"
         android:textColor="@color/blue"
@@ -23,7 +23,7 @@
         android:id="@+id/etEditTextToPass"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Enter Text"
+        android:hint="Infromation"
         android:inputType="text"
         android:textSize="30sp"
         android:fontFamily="serif-monospace"
@@ -33,10 +33,10 @@
 
         />
     <Button
-        android:id="@+id/btnPassText"
+        android:id="@+id/btnSendInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pass text"
+        android:text="Send Info"
         android:textSize="40sp"
         android:fontFamily="serif-monospace"
         android:background="@color/blue"

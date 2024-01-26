@@ -19,26 +19,13 @@
         android:layout_marginBottom="32dp"
     />
 
-    <EditText
-        android:id="@+id/etEditTextToPass"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintVertical_bias="0.50"
-        android:hint="Enter new Text"
-        android:inputType="text"
-        android:textSize="30sp"
-        android:fontFamily="serif-monospace"
-        android:textColor="@color/blue"
-        android:layout_marginBottom="32dp"
-        android:layout_marginTop="32dp"
 
-        />
     <Button
-        android:id="@+id/btnPassText"
+        android:id="@+id/btnHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintVertical_bias="0.80"
-        android:text="Pass text"
+        android:text="Home"
         android:textSize="40sp"
         android:fontFamily="serif-monospace"
         android:background="@color/blue"

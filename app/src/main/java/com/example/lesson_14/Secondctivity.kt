@@ -8,24 +8,21 @@ import android.widget.EditText
 import android.widget.TextView
 
 class Secondctivity : AppCompatActivity() {
-    private  var btnPassText: Button? = null
     private  var fragmentText: TextView? = null
-    private var editTextToPass: EditText? = null
+    private  var btnHome: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_secondctivity)
-        btnPassText = findViewById(R.id.btnPassText)
+        btnHome = findViewById(R.id.btnHome)
         fragmentText = findViewById(R.id.FragmentText)
-        editTextToPass = findViewById(R.id.etEditTextToPass)
         fragmentText?.text = intent.getStringExtra("USER_INPUT_DATA_EXTRA")
         setOnClickListeners()
     }
     private fun setOnClickListeners(){
 
-        btnPassText?.setOnClickListener {
-            var intent = Intent(this, ThirdActivity::class.java)
-            intent.putExtra("USER_INPUT_DATA_EXTRA", editTextToPass?.text.toString())
+        btnHome?.setOnClickListener {
+            var intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
